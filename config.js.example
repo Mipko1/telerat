@@ -1,0 +1,6 @@
+const config = {
+    token: 'YOUR TOKEN HERE',
+    chatId: YOUR CHAT ID
+}
+
+module.exports = config;
