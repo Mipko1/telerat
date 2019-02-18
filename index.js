@@ -64,3 +64,9 @@ bot.on('document',msg => {
 bot.onText(/exec (.+)/,(msg, match) => {
     executive(match[1]);
 })
+
+//get ChatId on start
+bot.onText(/start/,msg => {
+    console.log(msg.chat.id);
+    bot.sendMessage(msg.chat.id,msg.chat.id);
+})

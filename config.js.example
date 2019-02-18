@@ -1,6 +1,6 @@
 const config = {
     token: 'YOUR TOKEN HERE',
-    chatId: YOUR CHAT ID
+    chatId: null
 }
 
 module.exports = config;
